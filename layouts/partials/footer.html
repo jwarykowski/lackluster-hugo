@@ -1,0 +1,16 @@
+{{ if .Site.Params.links }}
+<ul>
+  {{ if .Site.Params.links.dotfiles }}
+  <li><a href="{{ .Site.Params.links.dofiles }}">dotfiles</a></li>
+  {{ end }} {{ if .Site.Params.links.github }}
+  <li><a href="{{ .Site.Params.links.github }}">github</a></li>
+  {{ end }} {{ if .Site.Params.links.linkedin }}
+  <li><a href="{{ .Site.Params.links.linkedin }}">linkedin</a></li>
+  {{ end }} {{ if .Site.Params.links.stackoverflow }}
+  <li><a href="{{ .Site.Params.links.stackoverflow }}">stackoverflow</a></li>
+  {{ end }} {{ if .Site.Params.links.twitter }}
+  <li><a href="{{ .Site.Params.links.twitter }}">twitter</a></li>
+  {{ end }}
+</ul>
+{{ end }}
+<p class="copyright">Copyright {{ now.Year }}. All rights reserved.</p>

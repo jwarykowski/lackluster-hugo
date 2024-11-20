@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Berkeley Mono";
+  src:
+    url("/fonts/BerkeleyMono-Regular.woff2") format("woff2"),
+    url("/fonts/BerkeleyMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-lack: #708090;
+  --color-luster: #deeeed;
+  --color-orange: #ffaa88;
+  --color-green: #789978;
+  --color-blue: #7788aa;
+  --color-red: #d70000;
+
+  --color-black: #000000;
+  --color-gray1: #080808;
+  --color-gray2: #191919;
+  --color-gray3: #2a2a2a;
+  --color-gray4: #444444;
+  --color-gray5: #555555;
+  --color-gray6: #7a7a7a;
+  --color-gray7: #aaaaaa;
+  --color-gray8: #cccccc;
+  --color-gray9: #dddddd;
+}
+
+body {
+  background-color: var(--color-gray2);
+  color: var(--color-luster);
+  font-family: "{{ .Site.Params.fontFamily }}", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header,
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem;
+  text-align: center;
+  width: 80%;
+
+  p.copyright {
+    font-size: smaller;
+  }
+}
+
+nav a {
+  color: var(--color-green);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--color-lack);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 0.25rem;
+}
+
+a {
+  color: var(--color-green);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-lack);
+  text-decoration: underline;
+}
+
+::selection {
+  background: var(--color-gray6);
+  color: var(--color-luster);
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+code,
+pre {
+  background: var(--color-gray3);
+  color: var(--color-luster);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+section.intro {
+  p {
+    margin: 0;
+  }
+}

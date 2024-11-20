@@ -1,0 +1,33 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-US'
+title = 'lackluster theme'
+
+[[menus.main]]
+name = 'home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'posts'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'tags'
+pageRef = '/tags'
+weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
+
+[params]
+bio = "A passionate developer who loves coding based in Melbourne, Australia."
+fontFamily = "'Liberation Mono', Consolas, 'Courier New', monospace"
+
+[params.links]
+github = "#"
+linkedin = "#"
+stackoverflow = "#"
+twitter = "#"

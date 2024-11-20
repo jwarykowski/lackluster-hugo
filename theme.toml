@@ -1,0 +1,14 @@
+name = 'lackluster'
+licenselink = 'https://github.com/jwarykowski/lackluster-hugo/LICENSE'
+license = 'MIT'
+description = 'lackluster theme inspired by lackluster.nvim'
+
+homepage = 'https://github.com/jwarykowski/lackluster-hugo'
+# demosite = 'https://owner.github.io/repo'
+
+tags = ["minimal", "responsive", "lackluster"]
+features = ["responsive", "SEO-friendly"]
+
+[author]
+  name = 'Jonathan Warykowski'
+  homepage = 'https://jwarykowski.dev'

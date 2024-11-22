@@ -27,6 +27,7 @@ bio = "A passionate developer who loves coding based in Melbourne, Australia."
 fontFamily = "'Liberation Mono', Consolas, 'Courier New', monospace"
 
 [params.links]
+dotfiles = "#"
 github = "#"
 linkedin = "#"
 stackoverflow = "#"

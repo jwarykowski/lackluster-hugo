@@ -4,7 +4,7 @@ license = 'MIT'
 description = 'lackluster theme inspired by lackluster.nvim'
 
 homepage = 'https://github.com/jwarykowski/lackluster-hugo'
-# demosite = 'https://owner.github.io/repo'
+demosite = 'https://lackluster-hugo.pages.dev'
 
 tags = ["minimal", "responsive", "lackluster"]
 features = ["responsive", "SEO-friendly"]
